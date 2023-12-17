@@ -38,6 +38,8 @@ export const Todo = () => {
 
             setTecs([...tecs, newTech]);
 
+        } else {
+            aelrt("Tecnologia já inserida, por favor informe uma diferente.");
         }
 
     }
